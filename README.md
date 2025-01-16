@@ -14,7 +14,7 @@ De las cuales solo se toma la parte real de esta ecuación.
 
 En la rama acustica, que se caracteriza por poseer frecuencias bajas, los atomos más pesados van a experimentar fuerzas más pequeñas, lo que se traduce en que su movimiento es prácticamente oscilatorio sin ningún tipo de afectación. En caso contrario, los átomos más ligeros sufren la inercia también de los pesados y es por esto por lo que el desplazamiento u(t) de los átomos ligeros adquiere una forma más compleja que cuantifica la interacción con los átomos pesados. 
 
-En la rama óptica, las frecuencias son altas, lo que se traduce en oscilaciones más "fuertes". Esto implica que los átomos de menor masa van a tener una amplitud de oscilación la cual va a estar prácticamente determinada completamente por la fuerza externa del movimiento
+En la rama óptica, las frecuencias son altas, lo que se traduce en oscilaciones más "fuertes". Esto implica que los átomos de menor masa van a tener una amplitud de oscilación la cual va a estar prácticamente determinada por la fuerza externa del movimiento
 y no por las interacciones con los átomos pesados, por lo que su movimiento es oscilatorio simple. Contrariamente, los átomos pesados sí sufren la interacción con los ligeros, por lo que su desplazamiento u(t) es más complejo. 
 
 El gráfico de los "modos normales" surge de condiciones matemáticas a los valores posibles del vector de onda "k" que se imponen al sistema para evitar problemas en los "bordes" de la cadena. Estas condiciones, en este caso siendo las de Born-Von Karmann, llevan a que
