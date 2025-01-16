@@ -23,7 +23,7 @@ x_0 = np.zeros(N)
 for i in range(N):
     x_0[i] = i*(a/2)
 
-ka = 3*np.pi/N
+k = 3*np.pi/N
 
 omega_optica = (C/(M1*M2))*(M1+M2+np.sqrt(pow(2,M1)+pow(2,M2)+2*M1*M2*np.cos(ka)))
 
