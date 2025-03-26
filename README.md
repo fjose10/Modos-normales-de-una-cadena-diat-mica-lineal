@@ -26,4 +26,8 @@ Habiendo hecho ya el análisis físico, el paso a código es bastante directo, p
 con ciclos for sobre listas que definan tanto el intervalo de tiempo y su paso temporal "dt", así como listas que contengan la posición de cada átomo en la cadena. 
 El desplazamiento del enésimo átomo en la cadena en el instante t, se almacena en un array de dimensiones T x N (Con T siendo el número de pasos en el tiempo y N el número de átomos), cuyas filas detallan cada instante en el tiempo y cuyas columnas son la posición
 del n-esimo átomo en ese instante. Esto se grafica con matplotlib con ayuda de la función "scatter" y de librerías de animación. 
-Para observar la animación, se introducen las constantes del sistema, M1, M2, C, a y el valor de k (recordando que SOLO SE ADMITEN valores enteros de 2pi/N) y se procede a correr el código. Los diferentes valores de k corresponden a las formas más "básicas" de vibración del sistema, las cuales en contexto generales se superponen para generar las vibraciones reales y más complejas de un sistema físico real. 
+Para observar la animación, se introducen las constantes del sistema, M1, M2, C, a y el valor de k (recordando que SOLO SE ADMITEN valores enteros de 2pi/N) y se procede a correr el código. 
+
+# Interpretación del resultado
+
+La representación visual de las soluciones permite obtener una idea intuitiva del resultado, el cual regularmente posee una expresión matemática que no es sencilla de interpretar. Lo que observamos en el código son los diferentes valores de k, los cuales corresponden a las formas más "básicas" de vibración del sistema, es decir, determinan las frecuencias posibles a las que el sistema puede oscilar. En particular, estos tipos de vibración son de interés puesto que con estas frecuencias, se puede determinar la energía interna del sistema y por medio de otras relaciones matemáticas, propiedades como la capacidad calorífica, conductividad eléctrica y térmica se pueden predecir. 
